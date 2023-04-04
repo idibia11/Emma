@@ -1,0 +1,55 @@
+#container_wrapper {
+   background-color: rgb(190, 187, 200);
+}
+
+h1 {
+    text-align: center; 
+}
+
+.welcom_page {
+   margin-top: 2em;
+}
+
+.section_wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.nav_wrapper {
+   flex: 0.5;
+}
+
+.page_wrapper{
+   flex: 1;
+}
+
+.content_text {
+  font-size: large;
+  font-weight: 800;
+  margin-top: 2em;
+  color: rgb rgb(5, 110, 49); 
+} 
+
+.btn_btn {
+   background-color: rgb(163, 157, 167);
+   border-radius: 5%;
+   border: none;
+   padding:  1em;
+   cursor: pointer;
+}
+
+.content_wraper {
+   position: absolute;
+   bottom: 10%;
+   right:  30%;
+}
+
+.programming {
+   font-size:  5em;
+   font-weight: 800;
+   text-underline-position:below;
+}
+
+
+
+
