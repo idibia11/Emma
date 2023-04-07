@@ -37,8 +37,25 @@ h1 {
    padding:  1em;
    cursor: pointer;
 }
-
-.content_wraper {
+.btn_btn {
+   background-color: rgb(41, 121, 121);
+   border-radius: 0cap;
+   padding: 2em ;
+   cursor: pointer;
+}
+.btn_btn {
+   background-color: blue;
+   border-radius: 0cqmax;
+   padding: 1em;
+   cursor: pointer;
+}
+.btn_btn {
+   background-color: gold;
+   border-radius: 0cap;
+   padding: 2em ;
+   cursor: pointer;
+}
+.content_wraper {          
    position: absolute;
    bottom: 10%;
    right:  30%;
