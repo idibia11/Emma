@@ -31,29 +31,25 @@ h1 {
 } 
 
 .btn_btn {
-   background-color: rgb(163, 157, 167);
    border-radius: 5%;
    border: none;
    padding:  1em;
    cursor: pointer;
 }
-.btn_btn {
-   background-color: rgb(41, 121, 121);
-   border-radius: 0cap;
-   padding: 2em ;
-   cursor: pointer;
-}
-.btn_btn {
+.blue{
    background-color: blue;
-   border-radius: 0cqmax;
-   padding: 1em;
-   cursor: pointer;
 }
-.btn_btn {
-   background-color: gold;
-   border-radius: 0cap;
-   padding: 2em ;
-   cursor: pointer;
+.red{
+   background-color: red;
+}
+.yellow{
+   background-color: yellow;
+}
+.green{
+   background-color: green;
+}
+.grey{
+   background-color: grey;
 }
 .content_wraper {          
    position: absolute;
@@ -66,6 +62,8 @@ h1 {
    font-weight: 800;
    text-underline-position:below;
 }
+
+
 
 
 
