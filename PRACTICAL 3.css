@@ -5,14 +5,16 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-*/
+
 body {
+  background: #293f50;
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-h1, h3, h4, h5, p {
+h1, h3, h4, h5, p
+ {
     margin-bottom: 22px;
-    color: #648880;
+    color: #fff;
   }
 h1 {
 font-size: 36px;
@@ -21,27 +23,37 @@ line-height: 44px;
 h2 {
 font-size: 24px;
 line-height: 44px;
+color: #648880;
 }
 h3 {
 font-size: 21px;
+color: #648880;
 }
 h4 {
 font-size: 18px;
 }
 h5 {
-    color: #A9B2B9;
+    color: #648880;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
   }
 .btn {
     border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
     display: inline-block;
+    font-weight: 50;
+    letter-spacing: .5px;
     margin: 0;
+    text-transform: uppercase;
 }
 .btn-alt {
-    border: 1px solid #DFE2E5;
+    border: 1px solid #648880;
     padding: 10px 30px;
+}
+,.btn-alt:hover {
+  background: #fff;
 }
 .hero {
     padding: 22px 80px 66px 50px;
@@ -51,6 +63,9 @@ h5 {
     padding-left: 20px;
     padding-right: 20px;
     width: 960px;
+    color: #648880;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
     text-align: center;
 }
 */
@@ -68,7 +83,7 @@ h5 {
 }
 .logo {
     float: left;
-    border-top: 4px solid #648880;
+    border-top: 4px solid #fff;
     padding: 40px 0 22px 0;
   }
 .primary-footer small {
@@ -104,15 +119,27 @@ h5 {
   padding-left: 10px;
   padding-right: 10px;
 }
+p{
+  color: #648880;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.p-color{
+  color:#fff
+}
+.row {
+  background: #fff;
+  min-width: 960px;
+  padding:66px 0.44px 0;
+}
 a:hover {
-    color: #A9B2B9;
+    color: #fffff7;
   }
 a {
     color: #648880;
     text-decoration: none;
 }
 p a {
-    border-bottom: 1px solid #DFE2E5;
+    border-bottom: 1px solid #648880;
 }
 .logo {
     border-top: 4px solid #648880;
@@ -154,3 +181,12 @@ p a {
   .nav {
     text-align: right;
   }
+  .primary-header a,
+  .primary-footer a {
+    color: #fff;
+  }
+  .primary-header a:hover,
+  .primary-footer a:hover {
+    color: #648880;
+  }
+  
