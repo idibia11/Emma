@@ -6,7 +6,7 @@ body {
      h3, h5, p
    {
       margin-bottom: 22px;
-      color:  #293f50;
+      color: #fff;
     }
   h1 {
     color: #293f50;
@@ -23,9 +23,7 @@ body {
       font-weight: 400;
       text-transform: uppercase;
     }
-  .lead{
-    padding: 22px 80px 66px 50px;
-  }
+
   .container {
       margin: 0 auto;
       padding-left: 20px;
@@ -48,16 +46,12 @@ body {
       padding-bottom: 44px;
       padding-top: 44px;
   }
-  .lead {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   p{
-    color::#648880;
+    color: #648880;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .p-color{
-    color:#648880;
+    color:#fff
   }
   .row {
     background: #fff;
@@ -68,7 +62,7 @@ body {
       color: #fffff7;
     }
   a {
-      color:#648880;
+      color: #648880;
       text-decoration: none;
   }
   p a {
@@ -91,11 +85,12 @@ body {
       letter-spacing: .5px;
       text-transform: uppercase;
   }
-  .primary-footer {
+  .primary-footer  {
       color: #648880;
       font-size: 14px;
       padding-bottom: 44px;
       padding-top: 44px;
+      padding-right: 5em;
     }
     .primary-footer small {
       float: left;
@@ -110,10 +105,10 @@ body {
     }
     .container p {
       font-size: 24px;
-      line-height: 44px;
     }
     .nav {
       text-align: right;
+      padding-left: 20em;
     }
     .primary-header a,
     .primary-footer a {
@@ -127,96 +122,73 @@ body {
         background: #cbe2c1;
         padding: 44px 0 22px 0;
     }
-    form{
-      background-color: #fffff7;
-      width:30pc;
-      height: 35pc;
-    }
-    input,
-    select,
-    textarea {
-      font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-    .register-group label {
-      color: #648880;
-      cursor: pointer;
-      font-weight: 400;
-    }
-    .register-group input,
-    .register-group select,
-    .register-group textarea {
-      border: 1px solid #c6c9cc;
-      border-radius: 5px;
-      color: #888;
-      display: block;
-      margin: 5px 0 27px 0;
-      padding: 5px 8px;
-    }
-    .register-group input,
-    .register-group textarea {
-      width: 70%;
-    }
-    .register-group select {
-      height: 40px;
-      width: 70px;
-    }
-    .register-group textarea {
-      height: 60px;
-    }
-    .btn-default {
-      border: 0;
-      background: #0a6853;
-      padding: 11px 30px;
-      font-size: 14px;
-      text-align: center;
-    }
-    .btn-default:hover {
-      background: #77a198;
-    }
     .content_wrapper {
-      width: 100%;
-      background-color: #fffff7;
-      padding: 5em 8em 5em 8em;
+        padding-right: 2em;
+    }
+
+    #wrapper{
+        background-color: #fffff7;
+        padding:5em 8em 5em 8em;
     }
     .section_wrapper {
-      display: flex;
-      flex-flow: row;
-      justify-content:space-between;
-  }
-  hero {
-    padding: 22px 80px 66px 50px;
-  }
-  .group:before,
+        display: flex;
+        flex-flow: row;
+        justify-content:space-between;
+    }
+    .speaker-infor img {
+        border-radius: 50%;
+        height: 100px;
+        margin: -50px 0 22px 0;
+        vertical-align: top;
+      }
+      .speaker-infor {
+        border:5px solid #dfe2e5;
+        border-radius: 5px;
+        margin-top: 88px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+      .col-1-3 {
+        padding-bottom: 5em;
+      }
+      .side_wrapper{
+        padding-top: 10em;
+      }
+    .speaker-infor li {
+        list-style-type: none;
+    }
+    hero {
+        padding: 22px 80px 66px 50px;
+      }
+      .group:before,
 .group:after {
-content: "";
-display: table;
+  content: "";
+  display: table;
 }
 .group:after {
-clear: both;
+  clear: both;
 }
 .group {
-clear: both;
-*zoom: 1;
+  clear: both;
+  *zoom: 1;
 }
 .hero {
-padding-left: 10px;
-padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .hero,
 .grid {
-margin: 0 auto;
-width: 88%;
+  margin: 0 auto;
+  width: 88%;
 }
-fieldset{
-  border-color: none;
-  border: none;
-  padding-top: 4em;
+.wrap{
+  padding-right: 20px;
 }
+p{
+  text-align:justify;
+}
+      
+      
+      
 
-.input-wrapper{
-  text-align: center;
-}
-    
-
-    
-    
+   
